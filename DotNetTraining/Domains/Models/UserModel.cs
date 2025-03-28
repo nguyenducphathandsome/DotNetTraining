@@ -1,4 +1,4 @@
-﻿namespace Common.Application.Models
+﻿namespace DotNetTraining.Domains.Models
 {
     public class UserModel
     {

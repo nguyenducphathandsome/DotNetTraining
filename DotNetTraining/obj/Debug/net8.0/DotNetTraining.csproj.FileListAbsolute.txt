@@ -931,3 +931,325 @@ C:\Users\ADMIN\Desktop\thực tập MEU\DotNetTraining\DotNetTraining\DotNetTrai
 C:\Users\ADMIN\Desktop\thực tập MEU\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\thực tập MEU\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\ref\DotNetTraining.dll
 C:\Users\ADMIN\Desktop\thực tập MEU\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.sourcelink.json
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.csproj.AssemblyReference.cache
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.AssemblyInfoInputs.cache
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.AssemblyInfo.cs
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.csproj.CoreCompileInputs.cache
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.MvcApplicationPartsAssemblyInfo.cs
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.MvcApplicationPartsAssemblyInfo.cache
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.sourcelink.json
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\refint\DotNetTraining.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.xml
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.pdb
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\appsettings.Development.json
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\appsettings.json
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.exe
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailApprovedRequest.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailNewApprovalRequest.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailNewCommentRequest.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailRejectedRequest.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailReminderRequest.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailSAPIntegrationFailureRequest.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailSAPIntegrationSuccessRequest.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailWithdrawalRequest.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\Additional.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\Billing.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\CreateCustomerTemplate.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\CreateVendorTemplate.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\ExtendCustomerTemplate.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\ExtendVendorTemplate.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\PricingStatstics.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\PurchasingData.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\SalesArea.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\Shipping.html
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.deps.json
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.runtimeconfig.json
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.pdb
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.xml
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\AutoMapper.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Azure.Core.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Azure.Identity.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Azure.Security.KeyVault.Certificates.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Azure.Security.KeyVault.Secrets.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\ClosedXML.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Cronos.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Dapper.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Dapper.Contrib.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\EPPlus.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.barcodes.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.forms.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.io.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.kernel.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.layout.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.pdfa.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.pdfua.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.sign.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.styledxmlparser.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.svg.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.commons.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.html2pdf.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\MailKit.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Abstractions.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.Certificate.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.Certificateless.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.Diagnostics.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.TokenAcquisition.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.TokenCache.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.LoggingExtensions.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Validators.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Office.Interop.Excel.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\MimeKit.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Npgsql.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\OfficeOpenXml.Core.ExcelPackage.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\RBush.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.ClientModel.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets.build.json
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets.development.json
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets\msbuild.DotNetTraining.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets\msbuild.build.DotNetTraining.props
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DotNetTraining.props
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotNetTraining.props
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\scopedcss\bundle\DotNetTraining.styles.css
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTr.D954D7D5.Up2Date
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.genruntimeconfig.cache
+C:\Work\MeU Solutions\Project\dotnettemplate\DotNetTraining\DotNetTraining\obj\Debug\net8.0\ref\DotNetTraining.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\appsettings.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.staticwebassets.endpoints.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.exe
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailApprovedRequest.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailNewApprovalRequest.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailNewCommentRequest.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailRejectedRequest.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailReminderRequest.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailSAPIntegrationFailureRequest.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailSAPIntegrationSuccessRequest.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\EmailTemplates\EmailWithdrawalRequest.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\Additional.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\Billing.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\CreateCustomerTemplate.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\CreateVendorTemplate.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\ExtendCustomerTemplate.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\ExtendVendorTemplate.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\PricingStatstics.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\PurchasingData.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\SalesArea.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Common\Resources\PDFTemplate\Shipping.html
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.deps.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.runtimeconfig.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.pdb
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DotNetTraining.xml
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Azure.Security.KeyVault.Certificates.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Cronos.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Dapper.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Dapper.Contrib.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\EPPlus.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\EPPlus.Interfaces.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.barcodes.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.forms.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.io.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.kernel.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.layout.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.pdfa.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.pdfua.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.sign.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.styledxmlparser.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.svg.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.commons.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\itext.html2pdf.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\MailKit.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Abstractions.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.Certificate.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.Certificateless.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.Diagnostics.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.TokenAcquisition.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Identity.Web.TokenCache.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.LoggingExtensions.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IdentityModel.Validators.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Office.Interop.Excel.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\MimeKit.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Npgsql.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\OfficeOpenXml.Core.ExcelPackage.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\RBush.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.sourcelink.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\scopedcss\bundle\DotNetTraining.styles.css
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets\msbuild.DotNetTraining.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets\msbuild.DotNetTraining.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets\msbuild.build.DotNetTraining.props
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DotNetTraining.props
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotNetTraining.props
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTr.D954D7D5.Up2Date
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\refint\DotNetTraining.dll
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.xml
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.pdb
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\DotNetTraining.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining\obj\Debug\net8.0\ref\DotNetTraining.dll

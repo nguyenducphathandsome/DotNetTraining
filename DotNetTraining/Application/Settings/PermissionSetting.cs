@@ -14,7 +14,7 @@ public class PermissionSetting : BasePermissionSetting
     public PermissionSetting(IDbConnection dbConnection)
     {
         _dbConnection = dbConnection;
-        LoadPermissionsFromDatabase().Wait(); // Wait for the async method to complete
+        //LoadPermissionsFromDatabase().Wait(); // Wait for the async method to complete
     }
     public static async Task<PermissionSetting> CreateAsync(IDbConnection dbConnection)
     {

@@ -6,6 +6,7 @@ using Dapper;
 using Dapper.Contrib.Extensions;
 using DocumentFormat.OpenXml.Spreadsheet;
 using DotNetTraining.Domains.Entities;
+using iText.StyledXmlParser.Jsoup.Select;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -32,7 +33,7 @@ namespace DotNetTraining.Repositories
         {
             try
             {
-                var sql = "SELECT * FROM users WHERE Email = @Email";
+                var sql = "SELECT * FROM users WHERE email = @Email";
                 return await connection.QueryFirstOrDefaultAsync<User>(sql, new { Email = email });
             }
             catch (Exception e)
@@ -56,5 +57,19 @@ namespace DotNetTraining.Repositories
         {
             await DeleteAsync(user);
         }
+        public async Task<User?> GetUserRoleByUserID(Guid userId)
+        {
+            try
+            {
+                var sql = "SELECT * FROM users WHERE id = @UserId";
+                return await connection.QueryFirstOrDefaultAsync<User>(sql, new { UserId = userId });
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error in GetByUsernameAsync: {e.Message}");
+                return null;
+            }
+        }
+
     }
 }

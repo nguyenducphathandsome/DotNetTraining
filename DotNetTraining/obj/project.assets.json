@@ -10917,11 +10917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\thực tập MEU\\DotNetTraining\\DotNetTraining\\DotNetTraining\\DotNetTraining.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\c#\\DotNetTraining\\DotNetTraining\\DotNetTraining\\DotNetTraining.csproj",
       "projectName": "DotNetTraining",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\thực tập MEU\\DotNetTraining\\DotNetTraining\\DotNetTraining\\DotNetTraining.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Desktop\\c#\\DotNetTraining\\DotNetTraining\\DotNetTraining\\DotNetTraining.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\thực tập MEU\\DotNetTraining\\DotNetTraining\\DotNetTraining\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Desktop\\c#\\DotNetTraining\\DotNetTraining\\DotNetTraining\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

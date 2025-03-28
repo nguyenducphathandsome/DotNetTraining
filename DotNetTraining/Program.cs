@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using Application;
+using Common.Application.Settings;
 using DotNetTraining.AutoMappers;
 using DotNetTraining.Repositories;
 using DotNetTraining.Services;
@@ -14,6 +15,9 @@ builder.Services.Configure<FormOptions>(options =>
 });
 // đăng ký AutoMapper
 builder.Services.AddAutoMapper(typeof(Program));
+// đăng ký JwtTokenSetting
+builder.Services.Configure<JwtTokenSetting>(builder.Configuration.GetSection("JwtTokenSetting"));
+
 
 var xmlPath = Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml");
 var application = new Startup(builder, xmlPath, Assembly.GetExecutingAssembly());

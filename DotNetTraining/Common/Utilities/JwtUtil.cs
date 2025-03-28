@@ -1,4 +1,4 @@
-using System.IdentityModel.Tokens.Jwt;
+﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Common.Application.Exceptions;
@@ -99,13 +99,15 @@ namespace Common.Utilities
             public static AuthenticatedUserModel GetAuthenticatedUser(IEnumerable<Claim> claims)
             {
                 var claimDictionary = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
-                var roles = new List<string>();
+                //var roles = new List<string>();
+                string? roles = null; // role đầu tiên bằng null
 
                 foreach (var claim in claims)
                 {
                     if (claim.Type == ClaimTypes.Role)
                     {
-                        roles.Add(claim.Value);
+                        //roles.Add(claim.Value);
+                        roles = claim.Value; // Chỉ lấy giá trị đầu tiên
                     }
                     else
                     {
@@ -129,7 +131,7 @@ namespace Common.Utilities
                     UserName = claimDictionary[UserClaims.UserName],
                     FirstName = claimDictionary.ContainsKey(UserClaims.FirstName) ? claimDictionary[UserClaims.FirstName] : string.Empty,
                     LastName = claimDictionary.ContainsKey(UserClaims.LastName) ? claimDictionary[UserClaims.LastName] : string.Empty,
-                    Role = role 
+                    Role = role
                 };
             }
 

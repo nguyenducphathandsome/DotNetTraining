@@ -22,7 +22,7 @@ namespace Common.Application.Configurations
 		{
 			typeof(GlobalExceptionHandlerMiddleware),
 
-            //typeof(AuthenticateMiddleware),
+            typeof(AuthenticateMiddleware),
             //typeof(SignatureMiddleware)
         };
         protected readonly IWebHostEnvironment _environment;

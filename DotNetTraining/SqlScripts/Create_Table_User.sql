@@ -1,7 +1,11 @@
 CREATE TABLE "users"
 (
     "Id" NVARCHAR(MAX) NOT NULL,
-    "Name" NVARCHAR(MAX),
+    "Roles" NVARCHAR(MAX),
+    "UserName" NVARCHAR(MAX),
+    "FirstName" NVARCHAR(MAX),
+    "LastName" NVARCHAR(MAX),
+    "FullName" NVARCHAR(MAX),
     "Email" NVARCHAR(MAX),
     "Password" NVARCHAR(MAX),
     "CreatedAt" NVARCHAR(MAX),

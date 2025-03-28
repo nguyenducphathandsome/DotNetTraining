@@ -22,7 +22,6 @@ public class ValidateCurrentUserFilter : IAsyncActionFilter
     {
         if (context.Controller is ControllerBase controller)
         {
-            
             var actionDescriptor = context.ActionDescriptor as ControllerActionDescriptor;
             if (actionDescriptor != null)
             {
@@ -32,31 +31,43 @@ public class ValidateCurrentUserFilter : IAsyncActionFilter
                     case "AuthenticateWithAzure":
                     case "TestSyncAzureAccount":
                     case "AuthenticateWithAzureAsync":
-                    //case "AuthenticateWithAzure":
+                    case "Login":
                         // Skip validation for these actions
                         await next();
                         break;
-                    default:
-                        //var userServiceType = typeof(AuthUserService<>).MakeGenericType(typeof(BaseAppSetting));
-                        //var authService = _serviceProvider.GetRequiredService(userServiceType);
 
-                        //// Use reflection to call the GetUser method
-                        //var user = _httpContextAccessor.HttpContext?.Items["User"] as AuthenticatedUserModel;
-                        //if (user == null)
-                        //{
-                        //    throw new NonAuthenticateException("No Authen");
-                        //}
-                        //// Assuming your controller has a property "_currentUser" to hold this information
-                        //var currentUserProperty = controller.GetType().GetProperty("_currentUser");
-                        //currentUserProperty?.SetValue(controller, user);
+                    case "DeleteUser":
+                        // Use reflection to call the GetUser method
+                        var user = _httpContextAccessor.HttpContext?.Items["User"] as AuthenticatedUserModel;
+                        if (user == null)
+                        {
+                            throw new NonAuthenticateException("No Authen");
+                        }
+                        // Kiểm tra vai trò của user
+                        if (user.Role != "Admin")
+                        {
+                            throw new UnauthorizedAccessException("Permission denied. Only Admins can delete.");
+                        }
                         await next();
                         break;
 
+                    default:
+                        var userServiceType = typeof(AuthUserService<>).MakeGenericType(typeof(BaseAppSetting));
+                        var authService = _serviceProvider.GetRequiredService(userServiceType);
+
+                        // Use reflection to call the GetUser method
+                        user = _httpContextAccessor.HttpContext?.Items["User"] as AuthenticatedUserModel;
+                        if (user == null)
+                        {
+                            throw new NonAuthenticateException("No Authen");
+                        }
+                        // Assuming your controller has a property "_currentUser" to hold this information
+                        var currentUserProperty = controller.GetType().GetProperty("_currentUser");
+                        currentUserProperty?.SetValue(controller, user);
+                        await next();
+                        break;
                 }
             }
-           
         }
-
-       
     }
 }
