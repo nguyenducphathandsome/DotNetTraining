@@ -223,6 +223,16 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
         "Name": "api-version",
         "Type": "System.String",
         "IsRequired": false

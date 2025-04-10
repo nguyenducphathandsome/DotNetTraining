@@ -34,7 +34,8 @@ namespace DotNetTraining.Repositories
             try
             {
                 var sql = "SELECT * FROM users WHERE email = @Email";
-                return await connection.QueryFirstOrDefaultAsync<User>(sql, new { Email = email });
+                var parameters = new { Email = email };
+                return await connection.QueryFirstOrDefaultAsync<User>(sql, parameters);
             }
             catch (Exception e)
             {
@@ -69,6 +70,22 @@ namespace DotNetTraining.Repositories
                 Console.WriteLine($"Error in GetByUsernameAsync: {e.Message}");
                 return null;
             }
+        }
+
+        public async Task<int> CountUsers()
+        {
+            var query = "SELECT COUNT(*) FROM Users";
+            return await _connection.ExecuteScalarAsync<int>(query);
+        }
+
+        public async Task<List<User>> GetUsersWithPagination(int offset, int pageSize)
+        {
+            var query = @"
+            SELECT * FROM Users
+            ORDER BY CreatedAt DESC
+            OFFSET @Offset ROWS FETCH NEXT @PageSize ROWS ONLY";
+
+            return (await _connection.QueryAsync<User>(query, new { Offset = offset, PageSize = pageSize })).ToList();
         }
 
     }

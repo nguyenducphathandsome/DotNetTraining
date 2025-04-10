@@ -23,6 +23,7 @@ using Utilities;
 using DotNetTraining.Requests;
 using Domain.Enums;
 using Microsoft.Extensions.Options;
+using DotNetTraining.Common.Application.Models;
 namespace DotNetTraining.Services
 {
   
@@ -33,15 +34,30 @@ namespace DotNetTraining.Services
         private readonly IConfiguration _configuration = configuration;
         private readonly JwtTokenSetting _jwtTokenSetting = jwtOptions.Value;
 
-        public async Task<List<UserModel>> GetAllUsers()
+        public async Task<(List<UserModel>, PaginationModel)> GetAllUsers(int pageNumber, int pageSize)
         {
-            var users = await _repo.GetAllUsers();
+            var offset = (pageNumber - 1) * pageSize;
 
+            // Lấy tổng số người dùng
+            var totalUsers = await _repo.CountUsers();
+
+            // Lấy danh sách người dùng với phân trang
+            var users = await _repo.GetUsersWithPagination(offset, pageSize);
+
+            // Chuyển đổi dữ liệu sang UserModel
             var result = _mapper.Map<List<UserModel>>(users);
 
-            return result;
+            // Tạo đối tượng phân trang
+            var pagination = new PaginationModel
+            {
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalItems = totalUsers
+            };
 
+            return (result, pagination);
         }
+
 
         public async Task<UserModel?> GetUserById(Guid userId)
         {

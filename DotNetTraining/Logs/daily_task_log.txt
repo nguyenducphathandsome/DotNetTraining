@@ -46,3 +46,210 @@
 2025-02-07 15:54:40 - Calculated delay: 259519.0859755 seconds
 2025-02-10 09:48:55 - Next run scheduled for: 2/10/2025 9:50:00 AM (UTC: 2/10/2025 9:50:00 AM)
 2025-02-10 09:48:55 - Calculated delay: 64.5860873 seconds
+2025-04-09 10:16:15 - Next run scheduled for: 09/04/2025 10:40:00 (UTC: 09/04/2025 10:40:00)
+2025-04-09 10:16:15 - Calculated delay: 1424.0852201 seconds
+2025-04-09 10:39:08 - Next run scheduled for: 09/04/2025 10:39:38 (UTC: 09/04/2025 10:39:38)
+2025-04-09 10:39:08 - Calculated delay: 29.954153 seconds
+2025-04-09 11:28:32 - Next run scheduled for: 09/04/2025 11:29:02 (UTC: 09/04/2025 11:29:02)
+2025-04-09 11:28:32 - Calculated delay: 29.9854761 seconds
+2025-04-09 11:29:08 - Next run scheduled for: 09/04/2025 11:29:38 (UTC: 09/04/2025 11:29:38)
+2025-04-09 11:29:08 - Calculated delay: 29.9477972 seconds
+2025-04-09 11:29:44 - Next run scheduled for: 09/04/2025 11:30:14 (UTC: 09/04/2025 11:30:14)
+2025-04-09 11:29:44 - Calculated delay: 29.9468628 seconds
+2025-04-09 11:30:21 - Next run scheduled for: 09/04/2025 11:30:51 (UTC: 09/04/2025 11:30:51)
+2025-04-09 11:30:21 - Calculated delay: 29.9877209 seconds
+2025-04-09 11:39:46 - Next run scheduled for: 09/04/2025 11:40:16 (UTC: 09/04/2025 11:40:16)
+2025-04-09 11:39:46 - Calculated delay: 29.9521525 seconds
+2025-04-09 11:41:24 - Next run scheduled for: 09/04/2025 11:41:54 (UTC: 09/04/2025 11:41:54)
+2025-04-09 11:41:24 - Calculated delay: 29.9035601 seconds
+2025-04-09 11:42:26 - Next run scheduled for: 10/04/2025 10:40:00 (UTC: 10/04/2025 10:40:00)
+2025-04-09 11:42:26 - Calculated delay: 82653.0783921 seconds
+2025-04-09 14:04:41 - Next run scheduled for: 10/04/2025 10:40:00 (UTC: 10/04/2025 10:40:00)
+2025-04-09 14:04:41 - Calculated delay: 74118.830291 seconds
+2025-04-09 16:33:36 - Next run scheduled for: 10/04/2025 10:40:00 (UTC: 10/04/2025 10:40:00)
+2025-04-09 16:33:36 - Calculated delay: 65183.4787399 seconds
+2025-04-09 16:33:52 - Next run scheduled for: 10/04/2025 10:40:00 (UTC: 10/04/2025 10:40:00)
+2025-04-09 16:33:52 - Calculated delay: 65167.494137 seconds
+2025-04-10 09:27:01 - Next run scheduled for: 10/04/2025 10:40:00 (UTC: 10/04/2025 10:40:00)
+2025-04-10 09:27:01 - Calculated delay: 4378.2100767 seconds
+2025-04-10 11:35:11 [INF] Processing additional configuration...
+2025-04-10 11:35:19 [INF] Processing additional configuration...
+2025-04-10 11:36:33 [INF] Processing additional configuration...
+2025-04-10 12:00:05 [WRN] Failed to determine the https port for redirect.
+2025-04-10 12:00:05 [WRN] Authorization header is missing or invalid.
+2025-04-10 12:00:06 [ERR] Authentication middleware encountered an error: Invalid Username or Password
+2025-04-10 12:00:12 [WRN] Authorization header is missing or invalid.
+2025-04-10 12:04:24 [WRN] Failed to determine the https port for redirect.
+2025-04-10 12:04:24 [WRN] Authorization header is missing or invalid.
+2025-04-10 12:04:25 [ERR] Authentication middleware encountered an error: Invalid Username or Password
+2025-04-10 12:04:33 [WRN] Authorization header is missing or invalid.
+2025-04-10 14:05:03 [WRN] Failed to determine the https port for redirect.
+2025-04-10 14:05:03 [WRN] Authorization header is missing or invalid.
+2025-04-10 14:05:04 [ERR] Authentication middleware encountered an error: Invalid Username or Password
+2025-04-10 14:05:33 [WRN] Authorization header is missing or invalid.
+2025-04-10 14:05:33 [ERR] Authentication middleware encountered an error: Invalid Username or Password
+2025-04-10 14:05:33 [WRN] Authorization header is missing or invalid.
+2025-04-10 14:05:33 [ERR] Authentication middleware encountered an error: Invalid Username or Password
+2025-04-10 14:05:33 [WRN] Authorization header is missing or invalid.
+2025-04-10 14:05:33 [ERR] Authentication middleware encountered an error: Invalid Username or Password
+2025-04-10 14:05:34 [WRN] Authorization header is missing or invalid.
+2025-04-10 14:05:34 [ERR] Authentication middleware encountered an error: Invalid Username or Password
+2025-04-10 14:05:34 [WRN] Authorization header is missing or invalid.
+2025-04-10 14:05:34 [ERR] Authentication middleware encountered an error: Invalid Username or Password
+[2025-04-10 14:12:03 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-10 14:12:04 INF] - Now listening on: http://localhost:5170
+[2025-04-10 14:12:04 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-10 14:12:04 INF] - Hosting environment: Development
+[2025-04-10 14:12:04 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-10 14:12:04 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-10 14:12:04 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 198.7922ms
+[2025-04-10 14:12:05 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-10 14:12:05 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-10 14:12:05 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 2.5282ms
+[2025-04-10 14:12:05 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.9787ms
+[2025-04-10 14:12:05 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-10 14:12:05 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9144ms
+[2025-04-10 14:12:10 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 47
+[2025-04-10 14:12:10 INF] - CORS policy execution failed.
+[2025-04-10 14:12:10 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-10 14:12:10 WRN] - Failed to determine the https port for redirect.
+[2025-04-10 14:12:10 WRN] - Authorization header is missing or invalid.
+[2025-04-10 14:12:10 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-10 14:12:10 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-10 14:12:11 INF] - Executed action AuthController.Login (DotNetTraining) in 442.086ms
+[2025-04-10 14:12:11 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-10 14:12:11 ERR] - Authentication middleware encountered an error: The account does not exist in the system. Please contact the admin to have the account added.
+[2025-04-10 14:12:11 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 403 null application/json 928.8133ms
+[2025-04-10 14:18:26 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-10 14:18:27 INF] - Now listening on: http://localhost:5170
+[2025-04-10 14:18:27 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-10 14:18:27 INF] - Hosting environment: Development
+[2025-04-10 14:18:27 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-10 14:18:27 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-10 14:18:27 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 179.4051ms
+[2025-04-10 14:18:27 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-10 14:18:27 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 7.119ms
+[2025-04-10 14:18:27 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-10 14:18:27 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.7182ms
+[2025-04-10 14:18:28 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-10 14:18:28 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.1452ms
+[2025-04-10 14:18:35 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 47
+[2025-04-10 14:18:35 INF] - CORS policy execution failed.
+[2025-04-10 14:18:35 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-10 14:18:36 WRN] - Failed to determine the https port for redirect.
+[2025-04-10 14:18:36 WRN] - Authorization header is missing or invalid.
+[2025-04-10 14:18:36 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-10 14:18:36 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-10 14:18:36 INF] - Executed action AuthController.Login (DotNetTraining) in 378.9061ms
+[2025-04-10 14:18:36 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-10 14:18:36 ERR] - Authentication middleware encountered an error: The account does not exist in the system. Please contact the admin to have the account added.
+[2025-04-10 14:18:36 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 403 null application/json 832.3837ms
+[2025-04-10 14:33:11 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-10 14:33:11 INF] - Now listening on: http://localhost:5170
+[2025-04-10 14:33:11 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-10 14:33:11 INF] - Hosting environment: Development
+[2025-04-10 14:33:11 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-10 14:33:12 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-10 14:33:12 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 211.306ms
+[2025-04-10 14:33:12 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-10 14:33:12 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 7.0816ms
+[2025-04-10 14:33:12 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-10 14:33:12 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 106.5555ms
+[2025-04-10 14:33:12 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-10 14:33:12 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.1602ms
+[2025-04-10 14:33:23 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 47
+[2025-04-10 14:33:23 INF] - CORS policy execution failed.
+[2025-04-10 14:33:23 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-10 14:33:23 WRN] - Failed to determine the https port for redirect.
+[2025-04-10 14:33:23 WRN] - Authorization header is missing or invalid.
+[2025-04-10 14:33:23 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-10 14:33:23 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-10 14:33:58 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-10 14:33:58 INF] - Now listening on: http://localhost:5170
+[2025-04-10 14:33:58 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-10 14:33:58 INF] - Hosting environment: Development
+[2025-04-10 14:33:58 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-10 14:33:59 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-10 14:33:59 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 207.6427ms
+[2025-04-10 14:33:59 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-10 14:33:59 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 9.8544ms
+[2025-04-10 14:33:59 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-10 14:33:59 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4778ms
+[2025-04-10 14:33:59 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-10 14:33:59 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.2607ms
+[2025-04-10 14:34:05 INF] - Request starting HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=1&pageSize=10&api-version=1.0 - null null
+[2025-04-10 14:34:05 WRN] - Failed to determine the https port for redirect.
+[2025-04-10 14:34:05 WRN] - Authorization header is missing or invalid.
+[2025-04-10 14:34:05 INF] - Executing endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-10 14:34:05 INF] - Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(Int32, Int32) on controller UsersController (DotNetTraining).
+[2025-04-10 14:34:06 INF] - Executed action UsersController.GetAllUsers (DotNetTraining) in 259.5293ms
+[2025-04-10 14:34:06 INF] - Executed endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-10 14:34:06 ERR] - Authentication middleware encountered an error: No Authen
+[2025-04-10 14:34:06 INF] - Request finished HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=1&pageSize=10&api-version=1.0 - 403 null application/json 616.7651ms
+[2025-04-10 14:45:17 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-10 14:45:17 INF] - Now listening on: http://localhost:5170
+[2025-04-10 14:45:17 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-10 14:45:17 INF] - Hosting environment: Development
+[2025-04-10 14:45:17 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-10 14:45:18 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-10 14:45:18 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 363.3957ms
+[2025-04-10 14:45:18 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-10 14:45:18 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-10 14:45:18 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.8635ms
+[2025-04-10 14:45:18 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.8052ms
+[2025-04-10 14:45:18 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-10 14:45:19 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.2474ms
+[2025-04-10 14:45:45 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-10 14:45:45 INF] - CORS policy execution failed.
+[2025-04-10 14:45:45 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-10 14:45:45 WRN] - Failed to determine the https port for redirect.
+[2025-04-10 14:45:45 WRN] - Authorization header is missing or invalid.
+[2025-04-10 14:45:45 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-10 14:45:45 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-10 14:45:46 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/10/2025 07:45:46. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-10 14:45:46 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-10 14:45:46 INF] - Executed action AuthController.Login (DotNetTraining) in 580.6783ms
+[2025-04-10 14:45:46 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-10 14:45:46 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 835.4142ms
+[2025-04-10 14:46:01 INF] - Request starting HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=1&pageSize=10&api-version=1.0 - null null
+[2025-04-10 14:46:01 WRN] - Authorization header is missing or invalid.
+[2025-04-10 14:46:01 INF] - Executing endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-10 14:46:01 INF] - Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(Int32, Int32) on controller UsersController (DotNetTraining).
+[2025-04-10 14:46:01 INF] - Executed action UsersController.GetAllUsers (DotNetTraining) in 84.0518ms
+[2025-04-10 14:46:01 INF] - Executed endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-10 14:46:01 ERR] - Authentication middleware encountered an error: No Authen
+[2025-04-10 14:46:01 INF] - Request finished HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=1&pageSize=10&api-version=1.0 - 403 null application/json 207.8246ms
+[2025-04-10 14:46:15 INF] - Request starting HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=4&pageSize=10&api-version=1.0 - null null
+[2025-04-10 14:46:16 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-10 14:46:16 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-10 14:46:16 ERR] - Message: IDX20803: Unable to obtain configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Will retry at '10/04/2025 07:46:16 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'., InnerException: System.IO.IOException. 
+[2025-04-10 14:46:16 WRN] - IDX10261: Unable to retrieve configuration from authority: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Proceeding with token validation in case the relevant properties have been set manually on the TokenValidationParameters. Exception caught: 
+ [PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]. See https://aka.ms/validate-using-configuration-manager for additional information.
+[2025-04-10 14:46:16 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-10 14:46:16 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-10 14:46:16 ERR] - IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-10 14:46:16 INF] - Failed to validate the token.
+[2025-04-10 14:46:16 INF] - Bearer was not authenticated. Failure message: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-10 14:46:16 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-10 14:46:16 INF] - IDX10242: Security token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+[2025-04-10 14:46:16 INF] - IDX10239: Lifetime of the token is valid.
+[2025-04-10 14:46:16 INF] - IDX10234: Audience Validated.Audience: 'Example'
+[2025-04-10 14:46:16 INF] - IDX10236: Issuer Validated.Issuer: 'Example'
+[2025-04-10 14:46:16 INF] - IDX10245: Creating claims identity from the validated token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-10 14:46:16 INF] - IDX10241: Security token validated. token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-10 14:46:16 INF] - Executing endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-10 14:46:16 INF] - Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(Int32, Int32) on controller UsersController (DotNetTraining).
+[2025-04-10 14:46:16 INF] - Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.List`1[[DotNetTraining.Domains.Models.UserModel, DotNetTraining, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[DotNetTraining.Common.Application.Models.PaginationModel, DotNetTraining, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2025-04-10 14:46:16 INF] - Executed action UsersController.GetAllUsers (DotNetTraining) in 48.281ms
+[2025-04-10 14:46:16 INF] - Executed endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-10 14:46:16 INF] - Request finished HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=4&pageSize=10&api-version=1.0 - 200 null application/json; charset=utf-8 716.1292ms
+[2025-04-10 14:46:16 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-10 14:46:16 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-10 14:46:16 ERR] - Message: IDX20806: Unable to obtain an updated configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Returning the current configuration. Exception: '[PII of type 'System.IO.IOException' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]., InnerException: System.IO.IOException. 

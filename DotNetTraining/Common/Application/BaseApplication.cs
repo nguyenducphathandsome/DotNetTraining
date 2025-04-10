@@ -8,8 +8,10 @@ using Common.Application.Middlewares;
 using Common.Application.Settings;
 using Common.Databases;
 using Common.Loggers.Interfaces;
+using Common.Loggers.SeriLog;
 using Common.Services;
 using Microsoft.Extensions.FileProviders;
+using Serilog;
 
 namespace Common.Application
 {
@@ -20,21 +22,21 @@ namespace Common.Application
 
         protected string _xmlPath;
 
-        protected  Assembly _assembly;
+        protected Assembly _assembly;
 
         protected abstract Config GetConfiguration();
 
         protected abstract void GenerateSqlScripts(Setting setting);
         protected abstract void AdditionalExecute(Setting setting);
 
-        public BaseApplication(WebApplicationBuilder? builder, string xmlPath, Assembly assembly) 
+        public BaseApplication(WebApplicationBuilder? builder, string xmlPath, Assembly assembly)
         {
             _builder = builder ?? throw new Exception("Cannot setup web application Builder");
             _xmlPath = xmlPath;
             _assembly = assembly;
             _appConfig = GetConfiguration();
 
-        }     
+        }
 
         public void Start()
         {
@@ -149,6 +151,21 @@ namespace Common.Application
             string cronSchedule = "*/10 * * * *"; // default to every 10 minute
             services.AddSingleton(new CronJobService(services.BuildServiceProvider(), cronSchedule));
             services.AddHostedService(provider => provider.GetRequiredService<CronJobService>());
+            // add AutoMapper
+            services.AddAutoMapper(typeof(Program));
+            // add JWT
+            services.Configure<JwtTokenSetting>(_builder.Configuration.GetSection("JwtTokenSetting"));
+            // add SeriLog
+            Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Information()
+            .WriteTo.File(
+                path: "Logs/daily_task_log.txt",
+                rollingInterval: RollingInterval.Infinite, // Không tạo file theo ngày
+                shared: true,
+                retainedFileCountLimit: null,
+                outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss} {Level:u3}] - {Message:lj}{NewLine}")
+            .CreateLogger();
+            _builder.Host.UseSerilog();
 
             //11. Start application
             RunApp();

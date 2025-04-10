@@ -20,11 +20,17 @@ public class UsersController : BaseV1Controller<UserService, ApplicationSetting>
     }
 
     [HttpGet("getAllUsers")]
-    public async Task<IActionResult> GetAllUsers()
+    public async Task<IActionResult> GetAllUsers([FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 10)
     {
-        var user = await _userService.GetAllUsers();
-        return Success(user);
+        var (users, pagination) = await _userService.GetAllUsers(pageNumber, pageSize);
+
+        return Ok(new
+        {
+            Data = users,
+            Pagination = pagination
+        });
     }
+
 
     [HttpGet("{userId}")]
     public async Task<IActionResult> GetUserById(Guid userId)
