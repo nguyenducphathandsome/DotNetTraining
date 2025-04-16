@@ -18,5 +18,9 @@ namespace DotNetTraining.Domains.Entities
         public UserStatus Status { get; set; } = UserStatus.Active;
 
         public DateTime? LastLoggedIn { get; set; }
+
+        public string RefreshToken { get; set; }
+
+        public DateTime? RefreshTokenExpiryTime { get; set; }
     }
 }

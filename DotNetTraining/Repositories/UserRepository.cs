@@ -88,5 +88,52 @@ namespace DotNetTraining.Repositories
             return (await _connection.QueryAsync<User>(query, new { Offset = offset, PageSize = pageSize })).ToList();
         }
 
+        public async Task<User?> GetByToken(string token)
+        {
+            var sql = "SELECT * FROM Users WHERE RefreshToken = @Token";
+            return await GetOneByConditionAsync(sql, new { Token = token });
+        }
+        public async Task<User?> GetByEmail(string email)
+        {
+            var sql = "SELECT * FROM Users WHERE Email = @Email";
+            return await GetOneByConditionAsync(sql, new { Email = email });
+        }
+        public async Task<string> GetUserRoleByEmail(string email)
+        {
+            var sql = "SELECT DISTINCT Roles FROM Users WHERE Email = @Email";
+            return await _connection.QuerySingleOrDefaultAsync<string>(sql, new { Email = email });
+        }
+        public async Task UpdateRefreshToken(string token, string newToken)
+        {
+            var entity = await GetByToken(token);
+            if (entity == null) return;
+
+            entity.RefreshToken = newToken;
+            entity.RefreshTokenExpiryTime = DateTime.Now;
+
+            await UpdateAsync(entity);
+        }
+        public async Task RemoveRefreshToken(string token)
+        {
+            var entity = await GetByToken(token);
+            if (entity != null)
+                await DeleteAsync(entity);
+        }
+
+        public async Task SaveRefreshToken(Guid userId, string refreshToken, DateTime expiry)
+        {
+            var existing = await GetByIdAsync(userId);
+            if (existing == null)
+            {
+                // Nếu user chưa tồn tại => lỗi logic, hoặc cần tạo mới với đủ dữ liệu
+                throw new Exception("User not found.");
+            }
+
+            // Cập nhật thuộc tính liên quan đến token
+            existing.RefreshToken = refreshToken;
+            existing.RefreshTokenExpiryTime = expiry;
+
+            await UpdateAsync(existing);
+        }
     }
 }

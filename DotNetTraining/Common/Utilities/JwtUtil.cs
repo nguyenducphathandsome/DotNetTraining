@@ -1,5 +1,6 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 using Common.Application.Exceptions;
 using Common.Application.Models;
@@ -134,8 +135,6 @@ namespace Common.Utilities
                     Role = role
                 };
             }
-
         }
     }
-
 }

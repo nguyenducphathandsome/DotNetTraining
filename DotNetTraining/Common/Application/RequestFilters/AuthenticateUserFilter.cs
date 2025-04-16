@@ -31,6 +31,7 @@ public class ValidateCurrentUserFilter : IAsyncActionFilter
                     case "AuthenticateWithAzure":
                     case "TestSyncAzureAccount":
                     case "AuthenticateWithAzureAsync":
+                    case "RefreshTokenRequest":
                     case "Login":
                         // Skip validation for these actions
                         await next();

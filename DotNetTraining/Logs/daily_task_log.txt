@@ -253,3 +253,1283 @@ Proceeding with token validation in case the relevant properties have been set m
 Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
 [2025-04-10 14:46:16 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
 [2025-04-10 14:46:16 ERR] - Message: IDX20806: Unable to obtain an updated configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Returning the current configuration. Exception: '[PII of type 'System.IO.IOException' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]., InnerException: System.IO.IOException. 
+[2025-04-11 09:26:00 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-11 09:26:01 INF] - Now listening on: http://localhost:5170
+[2025-04-11 09:26:01 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-11 09:26:01 INF] - Hosting environment: Development
+[2025-04-11 09:26:01 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-11 09:26:02 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-11 09:26:02 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 261.7343ms
+[2025-04-11 09:26:02 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-11 09:26:02 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-11 09:26:02 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.176ms
+[2025-04-11 09:26:02 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.4673ms
+[2025-04-11 09:26:02 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-11 09:26:02 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.5571ms
+[2025-04-11 09:26:02 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/favicon-32x32.png - null null
+[2025-04-11 09:26:02 INF] - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2025-04-11 09:26:02 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/favicon-32x32.png - 200 628 image/png 20.0472ms
+[2025-04-11 09:26:36 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-11 09:26:36 INF] - Now listening on: http://localhost:5170
+[2025-04-11 09:26:37 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-11 09:26:37 INF] - Hosting environment: Development
+[2025-04-11 09:26:37 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-11 09:26:37 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-11 09:26:37 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 298.8342ms
+[2025-04-11 09:26:37 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-11 09:26:37 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-11 09:26:37 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 4.9062ms
+[2025-04-11 09:26:37 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.8946ms
+[2025-04-11 09:26:37 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-11 09:26:38 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.6777ms
+[2025-04-11 09:26:43 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 47
+[2025-04-11 09:26:43 INF] - CORS policy execution failed.
+[2025-04-11 09:26:43 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 09:26:43 WRN] - Failed to determine the https port for redirect.
+[2025-04-11 09:26:43 WRN] - Authorization header is missing or invalid.
+[2025-04-11 09:26:43 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 09:26:43 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 09:26:44 INF] - Executed action AuthController.Login (DotNetTraining) in 521.8224ms
+[2025-04-11 09:26:44 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 09:26:44 ERR] - Authentication middleware encountered an error: The account does not exist in the system. Please contact the admin to have the account added.
+[2025-04-11 09:26:44 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 403 null application/json 1056.8175ms
+[2025-04-11 09:26:49 INF] - Request starting HTTP/1.1 GET http://localhost:5170/api/product/getallproduct?api-version=1.0 - null null
+[2025-04-11 09:26:49 WRN] - Authorization header is missing or invalid.
+[2025-04-11 09:26:49 INF] - Executing endpoint 'ProductController.GetAllProduct (DotNetTraining)'
+[2025-04-11 09:26:49 INF] - Route matched with {action = "GetAllProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProduct() on controller ProductController (DotNetTraining).
+[2025-04-11 09:26:49 INF] - Executed action ProductController.GetAllProduct (DotNetTraining) in 98.6954ms
+[2025-04-11 09:26:49 INF] - Executed endpoint 'ProductController.GetAllProduct (DotNetTraining)'
+[2025-04-11 09:26:49 ERR] - Authentication middleware encountered an error: No Authen
+[2025-04-11 09:26:49 INF] - Request finished HTTP/1.1 GET http://localhost:5170/api/product/getallproduct?api-version=1.0 - 403 null application/json 144.9095ms
+[2025-04-11 10:07:34 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-11 10:07:34 INF] - Now listening on: http://localhost:5170
+[2025-04-11 10:07:34 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-11 10:07:34 INF] - Hosting environment: Development
+[2025-04-11 10:07:34 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-11 10:07:35 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-11 10:07:35 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 201.186ms
+[2025-04-11 10:07:35 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-11 10:07:35 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-11 10:07:35 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.1549ms
+[2025-04-11 10:07:35 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.8399ms
+[2025-04-11 10:07:35 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-11 10:07:35 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.9767ms
+[2025-04-11 10:09:45 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 75
+[2025-04-11 10:09:45 INF] - CORS policy execution failed.
+[2025-04-11 10:09:45 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 10:09:45 WRN] - Failed to determine the https port for redirect.
+[2025-04-11 10:09:45 WRN] - Authorization header is missing or invalid.
+[2025-04-11 10:09:45 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 10:09:45 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 10:09:46 INF] - Executed action AuthController.Login (DotNetTraining) in 456.4282ms
+[2025-04-11 10:09:46 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 10:09:46 ERR] - Authentication middleware encountered an error: The account does not exist in the system. Please contact the admin to have the account added.
+[2025-04-11 10:09:46 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 403 null application/json 959.8561ms
+[2025-04-11 10:10:12 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 10:10:12 INF] - CORS policy execution failed.
+[2025-04-11 10:10:12 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 10:10:12 WRN] - Authorization header is missing or invalid.
+[2025-04-11 10:10:12 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 10:10:12 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 10:10:13 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/11/2025 03:10:13. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 10:10:13 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 10:10:13 INF] - Executed action AuthController.Login (DotNetTraining) in 202.2076ms
+[2025-04-11 10:10:13 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 10:10:13 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 212.8758ms
+[2025-04-11 18:43:15 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-11 18:43:16 INF] - Now listening on: http://localhost:5170
+[2025-04-11 18:43:16 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-11 18:43:16 INF] - Hosting environment: Development
+[2025-04-11 18:43:16 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-11 18:43:17 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-11 18:43:17 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 278.4569ms
+[2025-04-11 18:43:17 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-11 18:43:17 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-11 18:43:17 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.6483ms
+[2025-04-11 18:43:17 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.8907ms
+[2025-04-11 18:43:17 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-11 18:43:17 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.8932ms
+[2025-04-11 18:43:51 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:43:51 INF] - CORS policy execution failed.
+[2025-04-11 18:43:51 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:43:51 WRN] - Failed to determine the https port for redirect.
+[2025-04-11 18:43:51 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:43:51 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:43:51 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:43:52 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:43:52 INF] - Executed action AuthController.Login (DotNetTraining) in 669.7678ms
+[2025-04-11 18:43:52 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:43:52 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 1057.6496ms
+[2025-04-11 18:43:59 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:43:59 INF] - CORS policy execution failed.
+[2025-04-11 18:43:59 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:43:59 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:43:59 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:43:59 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:44:00 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:44:00 INF] - Executed action AuthController.Login (DotNetTraining) in 76.9992ms
+[2025-04-11 18:44:00 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:44:00 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 84.2438ms
+[2025-04-11 18:44:00 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:44:00 INF] - CORS policy execution failed.
+[2025-04-11 18:44:00 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:44:00 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:44:00 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:44:00 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:44:00 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:44:00 INF] - Executed action AuthController.Login (DotNetTraining) in 72.0353ms
+[2025-04-11 18:44:00 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:44:00 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 77.3983ms
+[2025-04-11 18:44:01 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:44:01 INF] - CORS policy execution failed.
+[2025-04-11 18:44:01 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:44:01 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:44:01 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:44:01 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:44:01 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:44:01 INF] - Executed action AuthController.Login (DotNetTraining) in 51.8856ms
+[2025-04-11 18:44:01 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:44:01 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 53.1496ms
+[2025-04-11 18:47:13 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-11 18:47:13 INF] - Now listening on: http://localhost:5170
+[2025-04-11 18:47:13 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-11 18:47:13 INF] - Hosting environment: Development
+[2025-04-11 18:47:13 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-11 18:47:14 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-11 18:47:15 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 277.4265ms
+[2025-04-11 18:47:15 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-11 18:47:15 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-11 18:47:15 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 4.2577ms
+[2025-04-11 18:47:15 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.5237ms
+[2025-04-11 18:47:15 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-11 18:47:15 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.3963ms
+[2025-04-11 18:47:55 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-11 18:47:56 INF] - Now listening on: http://localhost:5170
+[2025-04-11 18:47:56 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-11 18:47:56 INF] - Hosting environment: Development
+[2025-04-11 18:47:56 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-11 18:47:56 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-11 18:47:57 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 464.7279ms
+[2025-04-11 18:47:57 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-11 18:47:57 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-11 18:47:57 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 5.4719ms
+[2025-04-11 18:47:57 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.1538ms
+[2025-04-11 18:47:57 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-11 18:47:57 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.1257ms
+[2025-04-11 18:48:10 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:10 INF] - CORS policy execution failed.
+[2025-04-11 18:48:10 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:10 WRN] - Failed to determine the https port for redirect.
+[2025-04-11 18:48:10 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:10 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:10 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:11 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:11 INF] - Executed action AuthController.Login (DotNetTraining) in 658.2889ms
+[2025-04-11 18:48:11 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:11 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 931.6146ms
+[2025-04-11 18:48:54 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:54 INF] - CORS policy execution failed.
+[2025-04-11 18:48:54 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:54 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:54 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:54 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:54 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:54 INF] - Executed action AuthController.Login (DotNetTraining) in 67.0652ms
+[2025-04-11 18:48:54 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:54 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 72.2797ms
+[2025-04-11 18:48:56 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:56 INF] - CORS policy execution failed.
+[2025-04-11 18:48:56 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:56 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:56 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:56 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:56 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:56 INF] - Executed action AuthController.Login (DotNetTraining) in 66.0084ms
+[2025-04-11 18:48:56 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:56 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 69.4905ms
+[2025-04-11 18:48:56 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:56 INF] - CORS policy execution failed.
+[2025-04-11 18:48:56 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:56 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:56 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:56 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:57 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:57 INF] - Executed action AuthController.Login (DotNetTraining) in 61.5085ms
+[2025-04-11 18:48:57 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:57 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 62.6879ms
+[2025-04-11 18:48:57 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:57 INF] - CORS policy execution failed.
+[2025-04-11 18:48:57 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:57 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:57 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:57 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:57 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:57 INF] - Executed action AuthController.Login (DotNetTraining) in 52.4191ms
+[2025-04-11 18:48:57 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:57 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 54.1894ms
+[2025-04-11 18:48:58 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:58 INF] - CORS policy execution failed.
+[2025-04-11 18:48:58 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:58 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:58 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:58 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:58 INF] - Executed action AuthController.Login (DotNetTraining) in 67.1877ms
+[2025-04-11 18:48:58 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 68.6233ms
+[2025-04-11 18:48:58 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:58 INF] - CORS policy execution failed.
+[2025-04-11 18:48:58 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:58 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:58 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:58 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:58 INF] - Executed action AuthController.Login (DotNetTraining) in 60.7181ms
+[2025-04-11 18:48:58 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 61.9943ms
+[2025-04-11 18:48:58 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:58 INF] - CORS policy execution failed.
+[2025-04-11 18:48:58 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:58 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:58 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:58 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:58 INF] - Executed action AuthController.Login (DotNetTraining) in 79.8917ms
+[2025-04-11 18:48:58 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 80.9396ms
+[2025-04-11 18:48:58 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:58 INF] - CORS policy execution failed.
+[2025-04-11 18:48:58 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:58 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:58 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:58 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:58 INF] - Executed action AuthController.Login (DotNetTraining) in 72.2246ms
+[2025-04-11 18:48:58 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 73.4339ms
+[2025-04-11 18:48:58 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:58 INF] - CORS policy execution failed.
+[2025-04-11 18:48:58 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:58 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:58 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:58 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:58 INF] - Executed action AuthController.Login (DotNetTraining) in 64.5384ms
+[2025-04-11 18:48:58 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:58 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 65.8365ms
+[2025-04-11 18:48:59 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:48:59 INF] - CORS policy execution failed.
+[2025-04-11 18:48:59 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:48:59 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:48:59 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:59 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:48:59 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:48:59 INF] - Executed action AuthController.Login (DotNetTraining) in 58.0365ms
+[2025-04-11 18:48:59 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:48:59 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 59.6828ms
+[2025-04-11 18:49:29 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-11 18:49:29 INF] - Now listening on: http://localhost:5170
+[2025-04-11 18:49:30 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-11 18:49:30 INF] - Hosting environment: Development
+[2025-04-11 18:49:30 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-11 18:49:31 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-11 18:49:31 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 343.8132ms
+[2025-04-11 18:49:31 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-11 18:49:31 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-11 18:49:31 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 5.7362ms
+[2025-04-11 18:49:31 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.6454ms
+[2025-04-11 18:49:31 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-11 18:49:31 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.7735ms
+[2025-04-11 18:49:55 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 52
+[2025-04-11 18:49:55 INF] - CORS policy execution failed.
+[2025-04-11 18:49:55 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-11 18:49:55 WRN] - Failed to determine the https port for redirect.
+[2025-04-11 18:49:55 WRN] - Authorization header is missing or invalid.
+[2025-04-11 18:49:55 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:49:56 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-11 18:49:56 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/11/2025 11:49:56. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:49:56 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:49:56 INF] - Executed action AuthController.Login (DotNetTraining) in 494.1438ms
+[2025-04-11 18:49:56 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-11 18:49:56 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 755.1065ms
+[2025-04-11 18:56:09 INF] - Request starting HTTP/1.1 GET http://localhost:5170/api/product/getallproduct?api-version=1.0 - null null
+[2025-04-11 18:56:10 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:10 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:10 ERR] - Message: IDX20803: Unable to obtain configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Will retry at '11/04/2025 11:56:10 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'., InnerException: System.IO.IOException. 
+[2025-04-11 18:56:10 WRN] - IDX10261: Unable to retrieve configuration from authority: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Proceeding with token validation in case the relevant properties have been set manually on the TokenValidationParameters. Exception caught: 
+ [PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]. See https://aka.ms/validate-using-configuration-manager for additional information.
+[2025-04-11 18:56:10 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-11 18:56:10 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-11 18:56:10 ERR] - IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-11 18:56:10 INF] - Failed to validate the token.
+[2025-04-11 18:56:10 INF] - Bearer was not authenticated. Failure message: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-11 18:56:10 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-11 18:56:10 INF] - IDX10242: Security token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+[2025-04-11 18:56:10 INF] - IDX10239: Lifetime of the token is valid.
+[2025-04-11 18:56:10 INF] - IDX10234: Audience Validated.Audience: 'Example'
+[2025-04-11 18:56:10 INF] - IDX10236: Issuer Validated.Issuer: 'Example'
+[2025-04-11 18:56:10 INF] - IDX10245: Creating claims identity from the validated token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:10 INF] - IDX10241: Security token validated. token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:10 INF] - Executing endpoint 'ProductController.GetAllProduct (DotNetTraining)'
+[2025-04-11 18:56:10 INF] - Route matched with {action = "GetAllProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProduct() on controller ProductController (DotNetTraining).
+[2025-04-11 18:56:10 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-11 18:56:10 INF] - Executed action ProductController.GetAllProduct (DotNetTraining) in 36.5925ms
+[2025-04-11 18:56:10 INF] - Executed endpoint 'ProductController.GetAllProduct (DotNetTraining)'
+[2025-04-11 18:56:10 INF] - Request finished HTTP/1.1 GET http://localhost:5170/api/product/getallproduct?api-version=1.0 - 200 null application/json; charset=utf-8 755.4001ms
+[2025-04-11 18:56:10 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:10 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:10 ERR] - Message: IDX20806: Unable to obtain an updated configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Returning the current configuration. Exception: '[PII of type 'System.IO.IOException' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]., InnerException: System.IO.IOException. 
+[2025-04-11 18:56:27 INF] - Request starting HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=1&pageSize=10&api-version=1.0 - null null
+[2025-04-11 18:56:27 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:27 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:27 ERR] - Message: IDX20803: Unable to obtain configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Will retry at '11/04/2025 11:56:28 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'., InnerException: System.IO.IOException. 
+[2025-04-11 18:56:27 WRN] - IDX10261: Unable to retrieve configuration from authority: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Proceeding with token validation in case the relevant properties have been set manually on the TokenValidationParameters. Exception caught: 
+ [PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]. See https://aka.ms/validate-using-configuration-manager for additional information.
+[2025-04-11 18:56:27 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-11 18:56:27 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-11 18:56:27 ERR] - IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-11 18:56:27 INF] - Failed to validate the token.
+[2025-04-11 18:56:27 INF] - Bearer was not authenticated. Failure message: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-11 18:56:27 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-11 18:56:27 INF] - IDX10242: Security token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+[2025-04-11 18:56:27 INF] - IDX10239: Lifetime of the token is valid.
+[2025-04-11 18:56:27 INF] - IDX10234: Audience Validated.Audience: 'Example'
+[2025-04-11 18:56:27 INF] - IDX10236: Issuer Validated.Issuer: 'Example'
+[2025-04-11 18:56:27 INF] - IDX10245: Creating claims identity from the validated token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:27 INF] - IDX10241: Security token validated. token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-11 18:56:27 INF] - Executing endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-11 18:56:27 INF] - Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(Int32, Int32) on controller UsersController (DotNetTraining).
+[2025-04-11 18:56:27 INF] - Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.Collections.Generic.List`1[[DotNetTraining.Domains.Models.UserModel, DotNetTraining, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[DotNetTraining.Common.Application.Models.PaginationModel, DotNetTraining, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2025-04-11 18:56:27 INF] - Executed action UsersController.GetAllUsers (DotNetTraining) in 40.7712ms
+[2025-04-11 18:56:27 INF] - Executed endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-11 18:56:27 INF] - Request finished HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=1&pageSize=10&api-version=1.0 - 200 null application/json; charset=utf-8 151.3502ms
+[2025-04-12 16:19:06 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 16:19:07 INF] - Now listening on: http://localhost:5170
+[2025-04-12 16:19:07 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 16:19:07 INF] - Hosting environment: Development
+[2025-04-12 16:19:07 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 16:19:08 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:19:08 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 242.0752ms
+[2025-04-12 16:19:08 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:19:08 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:19:08 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 4.1994ms
+[2025-04-12 16:19:08 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.4192ms
+[2025-04-12 16:19:08 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:19:08 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.5017ms
+[2025-04-12 16:19:41 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 62
+[2025-04-12 16:19:41 INF] - CORS policy execution failed.
+[2025-04-12 16:19:41 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:19:41 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 16:19:42 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:19:42 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:19:42 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:19:43 INF] - Executed action AuthController.Login (DotNetTraining) in 1274.3ms
+[2025-04-12 16:19:43 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:19:43 ERR] - Authentication middleware encountered an error: Invalid Username or Password
+[2025-04-12 16:19:43 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 403 null application/json 2613.4085ms
+[2025-04-12 16:21:20 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 16:21:20 INF] - Now listening on: http://localhost:5170
+[2025-04-12 16:21:20 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 16:21:20 INF] - Hosting environment: Development
+[2025-04-12 16:21:20 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 16:21:21 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:21:21 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 316.9277ms
+[2025-04-12 16:21:21 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:21:21 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:21:21 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 5.3407ms
+[2025-04-12 16:21:21 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.8694ms
+[2025-04-12 16:21:22 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:21:22 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.0295ms
+[2025-04-12 16:22:19 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - application/json 151
+[2025-04-12 16:22:19 INF] - CORS policy execution failed.
+[2025-04-12 16:22:19 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:22:19 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 16:22:20 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:22:20 INF] - Executing endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:22:20 INF] - Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(DotNetTraining.Domains.Dtos.UserDto) on controller UsersController (DotNetTraining).
+[2025-04-12 16:22:21 INF] - Executed action UsersController.CreateUser (DotNetTraining) in 1618.6352ms
+[2025-04-12 16:22:21 INF] - Executed endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:22:22 ERR] - Authentication middleware encountered an error: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+[2025-04-12 16:22:22 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - 500 null application/json 2849.8796ms
+[2025-04-12 16:27:54 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:27:54 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 43.2552ms
+[2025-04-12 16:27:54 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:27:54 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 0.6453ms
+[2025-04-12 16:27:54 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:27:54 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.8555ms
+[2025-04-12 16:27:54 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:27:54 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.5624ms
+[2025-04-12 16:27:54 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/favicon-32x32.png - null null
+[2025-04-12 16:27:54 INF] - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2025-04-12 16:27:54 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/favicon-32x32.png - 200 628 image/png 23.5979ms
+[2025-04-12 16:28:02 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 16:28:02 INF] - Now listening on: http://localhost:5170
+[2025-04-12 16:28:02 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 16:28:02 INF] - Hosting environment: Development
+[2025-04-12 16:28:02 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 16:28:03 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:28:03 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 244.8159ms
+[2025-04-12 16:28:03 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:28:03 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:28:03 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.562ms
+[2025-04-12 16:28:03 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.4198ms
+[2025-04-12 16:28:03 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:28:03 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.7206ms
+[2025-04-12 16:28:18 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - application/json 151
+[2025-04-12 16:28:18 INF] - CORS policy execution failed.
+[2025-04-12 16:28:18 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:28:18 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 16:28:19 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:28:19 INF] - Executing endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:28:19 INF] - Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(DotNetTraining.Domains.Dtos.UserDto) on controller UsersController (DotNetTraining).
+[2025-04-12 16:28:20 INF] - Executed action UsersController.CreateUser (DotNetTraining) in 1563.7776ms
+[2025-04-12 16:28:20 INF] - Executed endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:28:21 ERR] - Authentication middleware encountered an error: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+[2025-04-12 16:28:21 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - 500 null application/json 2979.5458ms
+[2025-04-12 16:33:20 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 16:33:21 INF] - Now listening on: http://localhost:5170
+[2025-04-12 16:33:21 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 16:33:21 INF] - Hosting environment: Development
+[2025-04-12 16:33:21 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 16:33:21 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:33:22 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 274.0096ms
+[2025-04-12 16:33:22 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:33:22 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:33:22 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.2764ms
+[2025-04-12 16:33:22 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.431ms
+[2025-04-12 16:33:22 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:33:22 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.3738ms
+[2025-04-12 16:34:08 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - application/json 151
+[2025-04-12 16:34:08 INF] - CORS policy execution failed.
+[2025-04-12 16:34:08 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:34:08 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 16:34:09 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:34:09 INF] - Executing endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:34:09 INF] - Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(DotNetTraining.Domains.Dtos.UserDto) on controller UsersController (DotNetTraining).
+[2025-04-12 16:34:10 INF] - Executed action UsersController.CreateUser (DotNetTraining) in 1598.2584ms
+[2025-04-12 16:34:10 INF] - Executed endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:34:10 ERR] - Authentication middleware encountered an error: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+[2025-04-12 16:34:11 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - 500 null application/json 2758.9634ms
+[2025-04-12 16:37:40 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - application/json 151
+[2025-04-12 16:37:40 INF] - CORS policy execution failed.
+[2025-04-12 16:37:40 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:37:40 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:37:40 INF] - Executing endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:37:40 INF] - Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(DotNetTraining.Domains.Dtos.UserDto) on controller UsersController (DotNetTraining).
+[2025-04-12 16:37:40 INF] - Executed action UsersController.CreateUser (DotNetTraining) in 491.8101ms
+[2025-04-12 16:37:40 INF] - Executed endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:37:40 ERR] - Authentication middleware encountered an error: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+[2025-04-12 16:37:40 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - 500 null application/json 734.8756ms
+[2025-04-12 16:37:46 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:37:46 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 27.4513ms
+[2025-04-12 16:37:46 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:37:46 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:37:46 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 0.7452ms
+[2025-04-12 16:37:46 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.7111ms
+[2025-04-12 16:37:46 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:37:46 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.6173ms
+[2025-04-12 16:37:53 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - application/json 130
+[2025-04-12 16:37:53 INF] - CORS policy execution failed.
+[2025-04-12 16:37:53 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:37:53 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:37:53 INF] - Executing endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:37:53 INF] - Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(DotNetTraining.Domains.Dtos.UserDto) on controller UsersController (DotNetTraining).
+[2025-04-12 16:37:54 INF] - Executed action UsersController.CreateUser (DotNetTraining) in 360.3274ms
+[2025-04-12 16:37:54 INF] - Executed endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:37:54 ERR] - Authentication middleware encountered an error: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+[2025-04-12 16:37:54 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - 500 null application/json 566.5075ms
+[2025-04-12 16:43:41 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:43:41 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 32.5698ms
+[2025-04-12 16:43:41 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:43:41 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 0.4219ms
+[2025-04-12 16:43:41 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:43:41 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.9665ms
+[2025-04-12 16:43:42 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:43:42 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.0563ms
+[2025-04-12 16:43:49 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 16:43:49 INF] - Now listening on: http://localhost:5170
+[2025-04-12 16:43:49 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 16:43:49 INF] - Hosting environment: Development
+[2025-04-12 16:43:49 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 16:43:50 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:43:50 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 267.5732ms
+[2025-04-12 16:43:50 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:43:50 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 6.2852ms
+[2025-04-12 16:43:50 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:43:50 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.6411ms
+[2025-04-12 16:43:50 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:43:50 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.0258ms
+[2025-04-12 16:44:17 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - application/json 130
+[2025-04-12 16:44:17 INF] - CORS policy execution failed.
+[2025-04-12 16:44:17 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:44:17 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 16:44:17 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:44:17 INF] - Executing endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:44:17 INF] - Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(DotNetTraining.Domains.Dtos.UserDto) on controller UsersController (DotNetTraining).
+[2025-04-12 16:44:19 INF] - Executed action UsersController.CreateUser (DotNetTraining) in 1589.6588ms
+[2025-04-12 16:44:19 INF] - Executed endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:44:19 ERR] - Authentication middleware encountered an error: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+[2025-04-12 16:44:20 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - 500 null application/json 2901.3561ms
+[2025-04-12 16:45:24 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 16:45:24 INF] - Now listening on: http://localhost:5170
+[2025-04-12 16:45:24 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 16:45:24 INF] - Hosting environment: Development
+[2025-04-12 16:45:24 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 16:45:25 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:45:25 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 319.9616ms
+[2025-04-12 16:45:25 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:45:25 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:45:25 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 5.5294ms
+[2025-04-12 16:45:25 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.3818ms
+[2025-04-12 16:45:25 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:45:25 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.3432ms
+[2025-04-12 16:45:35 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - application/json 130
+[2025-04-12 16:45:35 INF] - CORS policy execution failed.
+[2025-04-12 16:45:35 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:45:35 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 16:45:36 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:45:36 INF] - Executing endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:45:36 INF] - Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(DotNetTraining.Domains.Dtos.UserDto) on controller UsersController (DotNetTraining).
+[2025-04-12 16:45:38 INF] - Executed action UsersController.CreateUser (DotNetTraining) in 2013.1526ms
+[2025-04-12 16:45:38 INF] - Executed endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:45:38 ERR] - Authentication middleware encountered an error: Invalid column name 'FullName'.
+[2025-04-12 16:45:39 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - 500 null application/json 3480.3549ms
+[2025-04-12 16:50:38 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - application/json 151
+[2025-04-12 16:50:38 INF] - CORS policy execution failed.
+[2025-04-12 16:50:38 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:50:38 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:50:38 INF] - Executing endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:50:38 INF] - Route matched with {action = "CreateUser", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(DotNetTraining.Domains.Dtos.UserDto) on controller UsersController (DotNetTraining).
+[2025-04-12 16:50:38 INF] - Executing CreatedResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:50:38 INF] - Executed action UsersController.CreateUser (DotNetTraining) in 119.0241ms
+[2025-04-12 16:50:38 INF] - Executed endpoint 'UsersController.CreateUser (DotNetTraining)'
+[2025-04-12 16:50:38 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/users/create?api-version=1.0 - 201 null application/json; charset=utf-8 130.7757ms
+[2025-04-12 16:51:13 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 51
+[2025-04-12 16:51:13 INF] - CORS policy execution failed.
+[2025-04-12 16:51:13 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:51:13 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:51:13 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:13 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:51:14 INF] - Executed action AuthController.Login (DotNetTraining) in 124.028ms
+[2025-04-12 16:51:14 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:14 ERR] - Authentication middleware encountered an error: The account does not exist in the system. Please contact the admin to have the account added.
+[2025-04-12 16:51:14 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 403 null application/json 240.8444ms
+[2025-04-12 16:51:32 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:51:32 INF] - CORS policy execution failed.
+[2025-04-12 16:51:32 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:51:32 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:51:32 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:32 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:51:32 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/12/2025 09:51:32. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:51:32 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:51:32 INF] - Executed action AuthController.Login (DotNetTraining) in 268.853ms
+[2025-04-12 16:51:32 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:32 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 273.6598ms
+[2025-04-12 16:51:52 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:51:52 INF] - CORS policy execution failed.
+[2025-04-12 16:51:52 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:51:52 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:51:52 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:52 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:51:52 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:51:52 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:51:52 INF] - Executed action AuthController.Login (DotNetTraining) in 176.3591ms
+[2025-04-12 16:51:52 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:52 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 179.0339ms
+[2025-04-12 16:51:56 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:51:56 INF] - CORS policy execution failed.
+[2025-04-12 16:51:56 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:51:56 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:51:56 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:56 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:51:56 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:51:56 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:51:56 INF] - Executed action AuthController.Login (DotNetTraining) in 117.6855ms
+[2025-04-12 16:51:56 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:56 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 119.4107ms
+[2025-04-12 16:51:56 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:51:56 INF] - CORS policy execution failed.
+[2025-04-12 16:51:56 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:51:56 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:51:56 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:56 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:51:56 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:51:56 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:51:56 INF] - Executed action AuthController.Login (DotNetTraining) in 135.3573ms
+[2025-04-12 16:51:56 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:56 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 137.0191ms
+[2025-04-12 16:51:56 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:51:56 INF] - CORS policy execution failed.
+[2025-04-12 16:51:56 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:51:56 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:51:56 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:56 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:51:57 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:51:57 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:51:57 INF] - Executed action AuthController.Login (DotNetTraining) in 121.836ms
+[2025-04-12 16:51:57 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:57 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 123.2173ms
+[2025-04-12 16:51:57 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:51:57 INF] - CORS policy execution failed.
+[2025-04-12 16:51:57 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:51:57 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:51:57 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:57 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:51:57 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:51:57 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:51:57 INF] - Executed action AuthController.Login (DotNetTraining) in 130.3578ms
+[2025-04-12 16:51:57 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:57 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 131.7154ms
+[2025-04-12 16:51:57 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:51:57 INF] - CORS policy execution failed.
+[2025-04-12 16:51:57 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:51:57 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:51:57 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:57 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:51:57 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:51:57 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:51:57 INF] - Executed action AuthController.Login (DotNetTraining) in 115.9643ms
+[2025-04-12 16:51:57 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:51:57 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 117.3381ms
+[2025-04-12 16:53:42 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:53:42 INF] - CORS policy execution failed.
+[2025-04-12 16:53:42 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:53:42 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:53:42 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:53:42 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:53:42 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:53:42 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:53:42 INF] - Executed action AuthController.Login (DotNetTraining) in 79.9031ms
+[2025-04-12 16:53:42 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:53:42 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 92.3648ms
+[2025-04-12 16:53:42 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:53:42 INF] - CORS policy execution failed.
+[2025-04-12 16:53:42 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:53:42 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:53:42 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:53:42 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:53:42 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:53:42 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:53:42 INF] - Executed action AuthController.Login (DotNetTraining) in 78.7413ms
+[2025-04-12 16:53:42 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:53:42 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 83.3201ms
+[2025-04-12 16:54:33 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 16:54:34 INF] - Now listening on: http://localhost:5170
+[2025-04-12 16:54:34 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 16:54:34 INF] - Hosting environment: Development
+[2025-04-12 16:54:34 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 16:54:34 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:54:35 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 241.4975ms
+[2025-04-12 16:54:35 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:54:35 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.2941ms
+[2025-04-12 16:54:35 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:54:35 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.3803ms
+[2025-04-12 16:54:35 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:54:35 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.8573ms
+[2025-04-12 16:55:15 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:55:15 INF] - CORS policy execution failed.
+[2025-04-12 16:55:15 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:55:15 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 16:55:15 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:55:15 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:55:15 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:56:57 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/12/2025 09:56:57. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 16:57:18 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 16:57:23 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 16:57:23 INF] - Now listening on: http://localhost:5170
+[2025-04-12 16:57:23 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 16:57:23 INF] - Hosting environment: Development
+[2025-04-12 16:57:23 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 16:57:23 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:57:24 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 215.828ms
+[2025-04-12 16:57:24 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:57:24 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:57:24 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.3986ms
+[2025-04-12 16:57:24 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.1546ms
+[2025-04-12 16:57:24 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:57:24 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.1431ms
+[2025-04-12 16:57:30 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 47
+[2025-04-12 16:57:30 INF] - CORS policy execution failed.
+[2025-04-12 16:57:30 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:57:30 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 16:57:30 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:57:30 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:57:30 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:57:49 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 16:57:50 INF] - Now listening on: http://localhost:5170
+[2025-04-12 16:57:50 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 16:57:50 INF] - Hosting environment: Development
+[2025-04-12 16:57:50 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 16:57:50 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 16:57:50 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 208.0845ms
+[2025-04-12 16:57:51 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 16:57:51 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 16:57:51 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.9143ms
+[2025-04-12 16:57:51 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.5973ms
+[2025-04-12 16:57:51 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 16:57:51 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.7262ms
+[2025-04-12 16:58:00 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 16:58:00 INF] - CORS policy execution failed.
+[2025-04-12 16:58:00 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 16:58:00 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 16:58:00 WRN] - Authorization header is missing or invalid.
+[2025-04-12 16:58:00 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 16:58:00 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 16:58:40 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/12/2025 09:58:40. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:02:53 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 17:02:53 INF] - Now listening on: http://localhost:5170
+[2025-04-12 17:02:53 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 17:02:53 INF] - Hosting environment: Development
+[2025-04-12 17:02:53 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 17:02:54 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 17:02:54 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 225.1594ms
+[2025-04-12 17:02:54 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 17:02:54 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 17:02:54 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 10.4828ms
+[2025-04-12 17:02:54 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.9907ms
+[2025-04-12 17:02:54 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 17:02:54 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.1212ms
+[2025-04-12 17:03:15 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:03:15 INF] - CORS policy execution failed.
+[2025-04-12 17:03:15 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:03:15 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 17:03:15 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:03:15 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:03:15 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:03:30 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/12/2025 10:03:30. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:03:56 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:03:56 INF] - Executed action AuthController.Login (DotNetTraining) in 41397.1885ms
+[2025-04-12 17:03:56 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:03:56 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 41657.1584ms
+[2025-04-12 17:04:01 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:01 INF] - CORS policy execution failed.
+[2025-04-12 17:04:01 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:01 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:01 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:01 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:01 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:01 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:01 INF] - Executed action AuthController.Login (DotNetTraining) in 28.5005ms
+[2025-04-12 17:04:01 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:01 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 35.9524ms
+[2025-04-12 17:04:01 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:01 INF] - CORS policy execution failed.
+[2025-04-12 17:04:01 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:01 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:01 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:01 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:01 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:01 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:01 INF] - Executed action AuthController.Login (DotNetTraining) in 17.6578ms
+[2025-04-12 17:04:01 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:01 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 21.5012ms
+[2025-04-12 17:04:02 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:02 INF] - CORS policy execution failed.
+[2025-04-12 17:04:02 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:02 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:02 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:02 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:02 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:02 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:02 INF] - Executed action AuthController.Login (DotNetTraining) in 31.0346ms
+[2025-04-12 17:04:02 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:02 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 33.0177ms
+[2025-04-12 17:04:02 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:02 INF] - CORS policy execution failed.
+[2025-04-12 17:04:02 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:02 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:02 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:02 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:02 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:02 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:02 INF] - Executed action AuthController.Login (DotNetTraining) in 17.9202ms
+[2025-04-12 17:04:02 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:02 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 19.3456ms
+[2025-04-12 17:04:14 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:14 INF] - CORS policy execution failed.
+[2025-04-12 17:04:14 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:14 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:14 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:14 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:14 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:14 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:14 INF] - Executed action AuthController.Login (DotNetTraining) in 22.7515ms
+[2025-04-12 17:04:14 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:14 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 24.6123ms
+[2025-04-12 17:04:15 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:15 INF] - CORS policy execution failed.
+[2025-04-12 17:04:15 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:15 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:15 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:15 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:15 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:15 INF] - Executed action AuthController.Login (DotNetTraining) in 16.4698ms
+[2025-04-12 17:04:15 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 17.9029ms
+[2025-04-12 17:04:15 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:15 INF] - CORS policy execution failed.
+[2025-04-12 17:04:15 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:15 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:15 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:15 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:15 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:15 INF] - Executed action AuthController.Login (DotNetTraining) in 19.344ms
+[2025-04-12 17:04:15 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 20.5145ms
+[2025-04-12 17:04:15 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:15 INF] - CORS policy execution failed.
+[2025-04-12 17:04:15 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:15 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:15 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:15 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:15 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:15 INF] - Executed action AuthController.Login (DotNetTraining) in 28.4135ms
+[2025-04-12 17:04:15 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 30.1941ms
+[2025-04-12 17:04:15 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:15 INF] - CORS policy execution failed.
+[2025-04-12 17:04:15 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:15 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:15 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:15 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:15 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:15 INF] - Executed action AuthController.Login (DotNetTraining) in 19.4588ms
+[2025-04-12 17:04:15 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 21.0322ms
+[2025-04-12 17:04:15 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:15 INF] - CORS policy execution failed.
+[2025-04-12 17:04:15 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:15 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:15 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:15 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:15 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:15 INF] - Executed action AuthController.Login (DotNetTraining) in 14.9005ms
+[2025-04-12 17:04:15 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:15 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 15.9906ms
+[2025-04-12 17:04:16 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:16 INF] - CORS policy execution failed.
+[2025-04-12 17:04:16 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:16 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:16 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:16 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:16 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:16 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:16 INF] - Executed action AuthController.Login (DotNetTraining) in 16.8084ms
+[2025-04-12 17:04:16 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:16 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 17.8718ms
+[2025-04-12 17:04:16 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:16 INF] - CORS policy execution failed.
+[2025-04-12 17:04:16 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:16 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:16 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:16 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:16 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:16 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:16 INF] - Executed action AuthController.Login (DotNetTraining) in 19.8366ms
+[2025-04-12 17:04:16 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:16 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 21.0306ms
+[2025-04-12 17:04:16 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:16 INF] - CORS policy execution failed.
+[2025-04-12 17:04:16 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:16 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:16 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:16 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:16 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:16 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:16 INF] - Executed action AuthController.Login (DotNetTraining) in 19.267ms
+[2025-04-12 17:04:16 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:16 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 20.5324ms
+[2025-04-12 17:04:16 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:16 INF] - CORS policy execution failed.
+[2025-04-12 17:04:16 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:16 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:16 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:16 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:16 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:16 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:16 INF] - Executed action AuthController.Login (DotNetTraining) in 21.2808ms
+[2025-04-12 17:04:16 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:16 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 22.6044ms
+[2025-04-12 17:04:16 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:16 INF] - CORS policy execution failed.
+[2025-04-12 17:04:16 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:16 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:16 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:16 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:16 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:16 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:17 INF] - Executed action AuthController.Login (DotNetTraining) in 21.3623ms
+[2025-04-12 17:04:17 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:17 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 22.6419ms
+[2025-04-12 17:04:19 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 17:04:19 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 20.0011ms
+[2025-04-12 17:04:19 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 17:04:19 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 17:04:19 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 0.3688ms
+[2025-04-12 17:04:19 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.5028ms
+[2025-04-12 17:04:20 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 17:04:20 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.827ms
+[2025-04-12 17:04:30 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:04:30 INF] - CORS policy execution failed.
+[2025-04-12 17:04:30 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:04:30 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:04:30 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:30 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:04:30 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:04:30 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:04:30 INF] - Executed action AuthController.Login (DotNetTraining) in 17.2524ms
+[2025-04-12 17:04:30 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:04:30 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 18.9559ms
+[2025-04-12 17:05:03 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 17:05:03 INF] - Now listening on: http://localhost:5170
+[2025-04-12 17:05:04 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 17:05:04 INF] - Hosting environment: Development
+[2025-04-12 17:05:04 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 17:05:04 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 17:05:04 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 248.3983ms
+[2025-04-12 17:05:04 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 17:05:04 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 17:05:04 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 5.5697ms
+[2025-04-12 17:05:04 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.0525ms
+[2025-04-12 17:05:04 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 17:05:04 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.4614ms
+[2025-04-12 17:05:14 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:05:14 INF] - CORS policy execution failed.
+[2025-04-12 17:05:14 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:05:14 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 17:05:14 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:05:14 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:05:14 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:09:40 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 17:09:41 INF] - Now listening on: http://localhost:5170
+[2025-04-12 17:09:41 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 17:09:41 INF] - Hosting environment: Development
+[2025-04-12 17:09:41 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 17:09:41 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 17:09:41 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 176.775ms
+[2025-04-12 17:09:41 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 17:09:41 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 17:09:41 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 5.0854ms
+[2025-04-12 17:09:41 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 49.2941ms
+[2025-04-12 17:09:41 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 17:09:41 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.5293ms
+[2025-04-12 17:10:17 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:10:17 INF] - CORS policy execution failed.
+[2025-04-12 17:10:17 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:10:17 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 17:10:17 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:10:17 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:10:17 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:12:06 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 17:12:07 INF] - Now listening on: http://localhost:5170
+[2025-04-12 17:12:07 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 17:12:07 INF] - Hosting environment: Development
+[2025-04-12 17:12:07 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 17:12:07 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 17:12:08 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 220.24ms
+[2025-04-12 17:12:08 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 17:12:08 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 17:12:08 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 6.815ms
+[2025-04-12 17:12:08 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.2641ms
+[2025-04-12 17:12:08 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 17:12:08 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.1948ms
+[2025-04-12 17:12:19 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 17:12:19 INF] - Now listening on: http://localhost:5170
+[2025-04-12 17:12:19 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 17:12:19 INF] - Hosting environment: Development
+[2025-04-12 17:12:19 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 17:12:20 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 17:12:20 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 193.2433ms
+[2025-04-12 17:12:20 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 17:12:20 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 17:12:20 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 4.5016ms
+[2025-04-12 17:12:20 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.2987ms
+[2025-04-12 17:12:20 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 17:12:20 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 35.7998ms
+[2025-04-12 17:12:29 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:12:29 INF] - CORS policy execution failed.
+[2025-04-12 17:12:29 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:12:29 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 17:12:29 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:12:29 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:12:29 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:12:36 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/12/2025 10:12:36. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:12:36 INF] - Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-04-12 17:12:36 INF] - Executed action AuthController.Login (DotNetTraining) in 6503.838ms
+[2025-04-12 17:12:36 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:12:36 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 6759.1272ms
+[2025-04-12 17:13:03 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - application/json 56
+[2025-04-12 17:13:03 INF] - CORS policy execution failed.
+[2025-04-12 17:13:03 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:13:03 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:13:03 INF] - Executing endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 17:13:03 INF] - Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(DotNetTraining.Requests.RefreshTokenRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:13:03 INF] - Executed action AuthController.Refresh (DotNetTraining) in 61.2747ms
+[2025-04-12 17:13:03 INF] - Executed endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 17:13:03 ERR] - Authentication middleware encountered an error: No Authen
+[2025-04-12 17:13:03 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - 403 null application/json 198.3582ms
+[2025-04-12 17:13:35 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 17:13:35 INF] - Now listening on: http://localhost:5170
+[2025-04-12 17:13:36 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 17:13:36 INF] - Hosting environment: Development
+[2025-04-12 17:13:36 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 17:13:36 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 17:13:36 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 178.1572ms
+[2025-04-12 17:13:36 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 17:13:36 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 17:13:36 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 3.5001ms
+[2025-04-12 17:13:36 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.666ms
+[2025-04-12 17:13:36 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 17:13:36 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.0528ms
+[2025-04-12 17:13:57 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 17:13:57 INF] - CORS policy execution failed.
+[2025-04-12 17:13:57 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:13:57 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 17:13:57 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:13:57 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:13:57 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:13:57 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/12/2025 10:13:57. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:13:57 INF] - Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-04-12 17:13:57 INF] - Executed action AuthController.Login (DotNetTraining) in 550.3056ms
+[2025-04-12 17:13:57 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 17:13:57 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 851.173ms
+[2025-04-12 17:14:11 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - application/json 56
+[2025-04-12 17:14:11 INF] - CORS policy execution failed.
+[2025-04-12 17:14:11 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:14:11 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:14:11 INF] - Executing endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 17:14:11 INF] - Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(DotNetTraining.Requests.RefreshTokenRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:14:11 INF] - Executed action AuthController.Refresh (DotNetTraining) in 84.73ms
+[2025-04-12 17:14:11 INF] - Executed endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 17:14:11 ERR] - Authentication middleware encountered an error: No Authen
+[2025-04-12 17:14:11 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - 403 null application/json 231.0225ms
+[2025-04-12 17:14:46 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - application/json 56
+[2025-04-12 17:14:46 INF] - CORS policy execution failed.
+[2025-04-12 17:14:46 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:14:46 WRN] - Authorization header is missing or invalid.
+[2025-04-12 17:14:46 INF] - Executing endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 17:14:46 INF] - Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(DotNetTraining.Requests.RefreshTokenRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:14:46 INF] - Executed action AuthController.Refresh (DotNetTraining) in 29.801ms
+[2025-04-12 17:14:46 INF] - Executed endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 17:14:46 ERR] - Authentication middleware encountered an error: No Authen
+[2025-04-12 17:14:46 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - 403 null application/json 63.6708ms
+[2025-04-12 17:15:07 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - application/json 56
+[2025-04-12 17:15:07 INF] - CORS policy execution failed.
+[2025-04-12 17:15:07 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 17:15:07 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:15:07 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:15:07 ERR] - Message: IDX20803: Unable to obtain configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Will retry at '12/04/2025 10:15:07 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'., InnerException: System.IO.IOException. 
+[2025-04-12 17:15:07 WRN] - IDX10261: Unable to retrieve configuration from authority: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Proceeding with token validation in case the relevant properties have been set manually on the TokenValidationParameters. Exception caught: 
+ [PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]. See https://aka.ms/validate-using-configuration-manager for additional information.
+[2025-04-12 17:15:07 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:15:07 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:15:07 ERR] - IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-12 17:15:07 INF] - Failed to validate the token.
+[2025-04-12 17:15:07 INF] - Bearer was not authenticated. Failure message: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-12 17:15:07 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:15:07 INF] - IDX10242: Security token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+[2025-04-12 17:15:07 INF] - IDX10239: Lifetime of the token is valid.
+[2025-04-12 17:15:07 INF] - IDX10234: Audience Validated.Audience: 'Example'
+[2025-04-12 17:15:07 INF] - IDX10236: Issuer Validated.Issuer: 'Example'
+[2025-04-12 17:15:07 INF] - IDX10245: Creating claims identity from the validated token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:15:07 INF] - IDX10241: Security token validated. token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:15:07 INF] - Executing endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 17:15:07 INF] - Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(DotNetTraining.Requests.RefreshTokenRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 17:15:07 INF] - IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:15:07 INF] - Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-04-12 17:15:07 INF] - Executed action AuthController.Refresh (DotNetTraining) in 26.7482ms
+[2025-04-12 17:15:07 INF] - Executed endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 17:15:07 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - 200 null application/json; charset=utf-8 475.0741ms
+[2025-04-12 17:15:07 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:15:07 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:15:07 ERR] - Message: IDX20806: Unable to obtain an updated configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Returning the current configuration. Exception: '[PII of type 'System.IO.IOException' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]., InnerException: System.IO.IOException. 
+[2025-04-12 17:16:01 INF] - Request starting HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=1&pageSize=10&api-version=1.0 - null null
+[2025-04-12 17:16:01 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:01 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:01 ERR] - Message: IDX20803: Unable to obtain configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Will retry at '12/04/2025 10:16:02 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'., InnerException: System.IO.IOException. 
+[2025-04-12 17:16:01 WRN] - IDX10261: Unable to retrieve configuration from authority: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Proceeding with token validation in case the relevant properties have been set manually on the TokenValidationParameters. Exception caught: 
+ [PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]. See https://aka.ms/validate-using-configuration-manager for additional information.
+[2025-04-12 17:16:01 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:16:01 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:16:01 ERR] - IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-12 17:16:01 INF] - Failed to validate the token.
+[2025-04-12 17:16:01 INF] - Bearer was not authenticated. Failure message: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-12 17:16:01 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:16:01 INF] - IDX10242: Security token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+[2025-04-12 17:16:01 INF] - IDX10239: Lifetime of the token is valid.
+[2025-04-12 17:16:01 INF] - IDX10234: Audience Validated.Audience: 'Example'
+[2025-04-12 17:16:01 INF] - IDX10236: Issuer Validated.Issuer: 'Example'
+[2025-04-12 17:16:01 INF] - IDX10245: Creating claims identity from the validated token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:01 INF] - IDX10241: Security token validated. token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:01 INF] - Executing endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-12 17:16:01 INF] - Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(Int32, Int32) on controller UsersController (DotNetTraining).
+[2025-04-12 17:16:02 INF] - Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[DotNetTraining.Domains.Models.UserModel, DotNetTraining, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[DotNetTraining.Common.Application.Models.PaginationModel, DotNetTraining, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2025-04-12 17:16:02 INF] - Executed action UsersController.GetAllUsers (DotNetTraining) in 44.549ms
+[2025-04-12 17:16:02 INF] - Executed endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-12 17:16:02 INF] - Request finished HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=1&pageSize=10&api-version=1.0 - 200 null application/json; charset=utf-8 212.6176ms
+[2025-04-12 17:16:12 INF] - Request starting HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=10&pageSize=10&api-version=1.0 - null null
+[2025-04-12 17:16:13 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:13 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:13 ERR] - Message: IDX20803: Unable to obtain configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Will retry at '12/04/2025 10:16:15 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'., InnerException: System.IO.IOException. 
+[2025-04-12 17:16:13 WRN] - IDX10261: Unable to retrieve configuration from authority: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Proceeding with token validation in case the relevant properties have been set manually on the TokenValidationParameters. Exception caught: 
+ [PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]. See https://aka.ms/validate-using-configuration-manager for additional information.
+[2025-04-12 17:16:13 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:16:13 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:16:13 ERR] - IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-12 17:16:13 INF] - Failed to validate the token.
+[2025-04-12 17:16:13 INF] - Bearer was not authenticated. Failure message: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-12 17:16:13 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:16:13 INF] - IDX10242: Security token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+[2025-04-12 17:16:13 INF] - IDX10239: Lifetime of the token is valid.
+[2025-04-12 17:16:13 INF] - IDX10234: Audience Validated.Audience: 'Example'
+[2025-04-12 17:16:13 INF] - IDX10236: Issuer Validated.Issuer: 'Example'
+[2025-04-12 17:16:13 INF] - IDX10245: Creating claims identity from the validated token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:13 INF] - IDX10241: Security token validated. token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:13 INF] - Executing endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-12 17:16:13 INF] - Route matched with {action = "GetAllUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUsers(Int32, Int32) on controller UsersController (DotNetTraining).
+[2025-04-12 17:16:13 INF] - Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.List`1[[DotNetTraining.Domains.Models.UserModel, DotNetTraining, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[DotNetTraining.Common.Application.Models.PaginationModel, DotNetTraining, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2025-04-12 17:16:13 INF] - Executed action UsersController.GetAllUsers (DotNetTraining) in 6.1931ms
+[2025-04-12 17:16:13 INF] - Executed endpoint 'UsersController.GetAllUsers (DotNetTraining)'
+[2025-04-12 17:16:13 INF] - Request finished HTTP/1.1 GET http://localhost:5170/api/users/getallusers?pageNumber=10&pageSize=10&api-version=1.0 - 200 null application/json; charset=utf-8 137.2133ms
+[2025-04-12 17:16:19 INF] - Request starting HTTP/1.1 GET http://localhost:5170/api/product/getallproduct?api-version=1.0 - null null
+[2025-04-12 17:16:19 WRN] - IDX20809: Unable to retrieve document from: '[PII of type 'System.Uri' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Status code: '[PII of type 'System.Net.HttpStatusCode' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Response content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:19 ERR] - IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:19 ERR] - Message: IDX20803: Unable to obtain configuration from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. Will retry at '12/04/2025 10:16:20 +00:00'. Exception: 'System.IO.IOException: IDX20807: Unable to retrieve document from: 'https://login.microsoftonline.com/3fd38777-666-47b2-8a7e-f3aca05610b4/v2.0/.well-known/openid-configuration'. HttpResponseMessage: '[PII of type 'System.Net.Http.HttpResponseMessage' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', HttpResponseMessage.Content: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Protocols.HttpDocumentRetriever.GetDocumentAsync(String address, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.OpenIdConnect.OpenIdConnectConfigurationRetriever.GetAsync(String address, IDocumentRetriever retriever, CancellationToken cancel)
+   at Microsoft.IdentityModel.Protocols.ConfigurationManager`1.GetConfigurationAsync(CancellationToken cancel)'., InnerException: System.IO.IOException. 
+[2025-04-12 17:16:19 WRN] - IDX10261: Unable to retrieve configuration from authority: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. 
+Proceeding with token validation in case the relevant properties have been set manually on the TokenValidationParameters. Exception caught: 
+ [PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]. See https://aka.ms/validate-using-configuration-manager for additional information.
+[2025-04-12 17:16:19 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:16:19 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:16:19 ERR] - IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-12 17:16:19 INF] - Failed to validate the token.
+[2025-04-12 17:16:19 INF] - Bearer was not authenticated. Failure message: IDX10500: Signature validation failed. No security keys were provided to validate the signature.
+[2025-04-12 17:16:19 INF] - IDX10243: Reading issuer signing keys from validation parameters.
+[2025-04-12 17:16:19 INF] - IDX10242: Security token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+[2025-04-12 17:16:19 INF] - IDX10239: Lifetime of the token is valid.
+[2025-04-12 17:16:19 INF] - IDX10234: Audience Validated.Audience: 'Example'
+[2025-04-12 17:16:19 INF] - IDX10236: Issuer Validated.Issuer: 'Example'
+[2025-04-12 17:16:19 INF] - IDX10245: Creating claims identity from the validated token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:19 INF] - IDX10241: Security token validated. token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 17:16:19 INF] - Executing endpoint 'ProductController.GetAllProduct (DotNetTraining)'
+[2025-04-12 17:16:19 INF] - Route matched with {action = "GetAllProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllProduct() on controller ProductController (DotNetTraining).
+[2025-04-12 17:16:19 INF] - Executing OkObjectResult, writing value of type 'Common.Application.Models.ResponseModel'.
+[2025-04-12 17:16:19 INF] - Executed action ProductController.GetAllProduct (DotNetTraining) in 30.5503ms
+[2025-04-12 17:16:19 INF] - Executed endpoint 'ProductController.GetAllProduct (DotNetTraining)'
+[2025-04-12 17:16:19 INF] - Request finished HTTP/1.1 GET http://localhost:5170/api/product/getallproduct?api-version=1.0 - 200 null application/json; charset=utf-8 161.5318ms
+[2025-04-12 17:24:15 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 17:24:15 INF] - Now listening on: http://localhost:5170
+[2025-04-12 17:24:16 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 17:24:16 INF] - Hosting environment: Development
+[2025-04-12 17:24:16 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 17:24:16 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 17:24:17 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 235.9809ms
+[2025-04-12 17:24:17 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 17:24:17 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 9.4424ms
+[2025-04-12 17:24:17 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 17:24:17 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 95.9453ms
+[2025-04-12 17:24:17 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 17:24:17 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.4243ms
+[2025-04-12 19:25:04 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-12 19:25:04 INF] - Now listening on: http://localhost:5170
+[2025-04-12 19:25:04 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-12 19:25:04 INF] - Hosting environment: Development
+[2025-04-12 19:25:04 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-12 19:25:04 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-12 19:25:05 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 250.7051ms
+[2025-04-12 19:25:05 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-12 19:25:05 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-12 19:25:05 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 2.7387ms
+[2025-04-12 19:25:05 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.7997ms
+[2025-04-12 19:25:05 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-12 19:25:05 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.959ms
+[2025-04-12 19:25:23 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - application/json 63
+[2025-04-12 19:25:23 INF] - CORS policy execution failed.
+[2025-04-12 19:25:23 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 19:25:23 WRN] - Failed to determine the https port for redirect.
+[2025-04-12 19:25:23 WRN] - Authorization header is missing or invalid.
+[2025-04-12 19:25:23 INF] - Executing endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 19:25:23 INF] - Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(DotNetTraining.Requests.LoginRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 19:25:45 INF] - Microsoft.IdentityModel Version: 8.0.2.0. Date 04/12/2025 12:25:45. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10642: Creating signature using the input: '[PII of type 'System.Byte[]' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[2025-04-12 19:27:04 INF] - Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2025-04-12 19:27:04 INF] - Executed action AuthController.Login (DotNetTraining) in 100929.4119ms
+[2025-04-12 19:27:04 INF] - Executed endpoint 'AuthController.Login (DotNetTraining)'
+[2025-04-12 19:27:04 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/login?api-version=1.0 - 200 null application/json; charset=utf-8 101301.0601ms
+[2025-04-12 19:27:26 INF] - Request starting HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - application/json 56
+[2025-04-12 19:27:26 INF] - CORS policy execution failed.
+[2025-04-12 19:27:26 INF] - Request origin http://localhost:5170 does not have permission to access the resource.
+[2025-04-12 19:27:26 WRN] - Authorization header is missing or invalid.
+[2025-04-12 19:27:26 INF] - Executing endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 19:27:26 INF] - Route matched with {action = "Refresh", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Refresh(DotNetTraining.Requests.RefreshTokenRequest) on controller AuthController (DotNetTraining).
+[2025-04-12 19:27:26 INF] - Executed action AuthController.Refresh (DotNetTraining) in 37.0542ms
+[2025-04-12 19:27:26 INF] - Executed endpoint 'AuthController.Refresh (DotNetTraining)'
+[2025-04-12 19:27:27 ERR] - Authentication middleware encountered an error: No Authen
+[2025-04-12 19:27:27 INF] - Request finished HTTP/1.1 POST http://localhost:5170/api/auth/refresh-token?api-version=1.0 - 403 null application/json 181.6099ms
+[2025-04-16 09:54:58 INF] - User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2025-04-16 09:54:59 INF] - Now listening on: http://localhost:5170
+[2025-04-16 09:54:59 INF] - Application started. Press Ctrl+C to shut down.
+[2025-04-16 09:54:59 INF] - Hosting environment: Development
+[2025-04-16 09:54:59 INF] - Content root path: C:\Users\ADMIN\Desktop\c#\DotNetTraining\DotNetTraining\DotNetTraining
+[2025-04-16 09:55:00 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger - null null
+[2025-04-16 09:55:00 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger - 301 0 null 330.5795ms
+[2025-04-16 09:55:00 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/index.html - null null
+[2025-04-16 09:55:01 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/index.html - 200 null text/html;charset=utf-8 112.9231ms
+[2025-04-16 09:55:01 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/swagger-ui-standalone-preset.js - null null
+[2025-04-16 09:55:01 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/swagger-ui-bundle.js - null null
+[2025-04-16 09:55:01 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/swagger-ui.css - null null
+[2025-04-16 09:55:01 INF] - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2025-04-16 09:55:01 INF] - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2025-04-16 09:55:01 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/swagger-ui.css - 200 144929 text/css 60.3959ms
+[2025-04-16 09:55:01 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 62.6797ms
+[2025-04-16 09:55:01 INF] - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2025-04-16 09:55:01 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 84.8177ms
+[2025-04-16 09:55:01 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_vs/browserLink - null null
+[2025-04-16 09:55:01 INF] - Request starting HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - null null
+[2025-04-16 09:55:01 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 5.0008ms
+[2025-04-16 09:55:01 INF] - Request finished HTTP/1.1 GET http://localhost:5170/_vs/browserLink - 200 null text/javascript; charset=UTF-8 276.204ms
+[2025-04-16 09:55:01 INF] - Request starting HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - null null
+[2025-04-16 09:55:01 INF] - Request finished HTTP/1.1 GET http://localhost:5170/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.3755ms

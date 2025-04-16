@@ -14,4 +14,9 @@ namespace DotNetTraining.Requests
         public string Password { get; set; }
 
     }
+    public class RefreshTokenRequest
+    {
+        public string RefreshToken { get; set; }
+    }
+
 }

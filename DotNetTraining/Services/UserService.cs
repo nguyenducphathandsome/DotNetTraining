@@ -34,6 +34,7 @@ namespace DotNetTraining.Services
         private readonly IConfiguration _configuration = configuration;
         private readonly JwtTokenSetting _jwtTokenSetting = jwtOptions.Value;
 
+
         public async Task<(List<UserModel>, PaginationModel)> GetAllUsers(int pageNumber, int pageSize)
         {
             var offset = (pageNumber - 1) * pageSize;
@@ -119,7 +120,7 @@ namespace DotNetTraining.Services
             return await _repo.Create(user);
         }
 
-        public async Task<string> AuthenticateAsync(LoginRequest request)
+        public async Task<(string accessToken, string refreshToken)> AuthenticateAsync(LoginRequest request)
         {
             var user = await _repo.GetUserByEmail(request.Email);
             if (user == null || user.Status == UserStatus.Deleted)
@@ -141,17 +142,49 @@ namespace DotNetTraining.Services
                     await _repo.UpdateAsync(user);
                     var authenticatedUser = _mapper.Map<AuthenticatedUserModel>(user);
 
-                    var userRole = await _repo.GetUserRoleByUserID(user.Id); // role của user
-                    var rolestring = userRole.ToString();
+                    var userRole = await _repo.GetUserRoleByEmail(user.Email);
 
-                    return JwtUtil.CreateJwtToken(_jwtTokenSetting, authenticatedUser, rolestring);
+                    //Tạo JWT Token
+                    string jwtToken = JwtUtil.CreateJwtToken(_jwtTokenSetting, authenticatedUser, userRole);
+                    //Tạo Refresh Token
+                    var refreshToken = Guid.NewGuid().ToString("N");
+                    await _repo.SaveRefreshToken(user.Id, refreshToken, DateTime.UtcNow.AddDays(7));
+                    string refresh = refreshToken.ToString();
+
+                    return (jwtToken, refresh);
                 }
                 catch (Exception)
                 {
-                    return null!;
+                    return (null, null);
                 }
             }
             throw new NonAuthenticateException();
+        }
+
+        public async Task<(string accessToken, string refreshToken)> RefreshTokenAsync(RefreshTokenRequest request)
+        {
+            var tokenEntity = await _repo.GetByToken(request.RefreshToken);
+            if (tokenEntity == null || tokenEntity.RefreshToken != request.RefreshToken)
+                throw new System.ApplicationException("Refresh Token không hợp lệ hoặc đã hết hạn.");
+
+            var user = await _repo.GetByEmail(tokenEntity.Email);
+            if (user == null || user.Status != UserStatus.Active)
+                throw new NonAuthenticateException("Tài khoản không hợp lệ hoặc đã bị khóa.");
+
+            var authenticatedUser = _mapper.Map<AuthenticatedUserModel>(user);
+            var userRole = await _repo.GetUserRoleByEmail(user.Email);
+
+            var newAccessToken = JwtUtil.CreateJwtToken(_jwtTokenSetting, authenticatedUser, userRole);
+            var newRefreshToken = Guid.NewGuid().ToString("N");
+
+            await _repo.UpdateRefreshToken(request.RefreshToken, newRefreshToken);
+
+            return (newAccessToken, newRefreshToken);
+        }
+
+        public async Task LogoutAsync(string email)
+        {
+            await _repo.RemoveRefreshToken(email);
         }
 
 
